@@ -1,0 +1,23 @@
+.carousel {
+    width: 105%;
+    margin: auto;
+    position: relative;
+    left: -20px;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-indicators {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+}
+
+.carousel-indicators button{
+    background: #ffffff !important;
+}

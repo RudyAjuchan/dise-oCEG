@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     overflow: hidden;
-    background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
 .carousel {
@@ -123,7 +122,6 @@ a{
     background-size: cover;
     z-index: 1 !important;
     display: none;
-    
 }
 
 @media (max-width: 1500px) {
@@ -139,4 +137,23 @@ a{
     .contenido_pie{
         padding: 10px 0px !important;
     }
+}
+
+@media (max-width: 767px) {
+    .figura{
+        background-image: none;
+    }
+    .content_normal{
+        background-image: none;
+    }
+    .contenido_login{
+        padding: 0% 15%;
+    }
+    .contenido_secundario{
+        display: none;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    
 }
